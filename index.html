@@ -53,9 +53,21 @@
     <div class="container-fluid">
       <h1>Fall</h1>
       <h3>Prepare for the Season</h3>
-      <button class="btn btn-primary btn-lg discover">
-        Discover
-      </button>
+      <p>
+        <button class="btn btn-primary btn-lg discover">
+          Discover
+        </button>
+      </p>
+      <div class="icons">
+        <p>
+          <a target="_blank" href="http://facebook.com">
+            <i class="fa fa-facebook-square fa-lg"></i>
+          </a> &nbsp;
+          <a target="_blank" href="http://instagram.com">
+            <i class="fa fa-instagram fa-lg"></i>
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 
@@ -63,54 +75,72 @@
   <div class="item" ng-controller="itemCtrl">
     <div class="container">
 
-      <div class="col-md-4" ng-repeat="item in items">
+      <div class="col-md-4 simpleCart_shelfItem" ng-repeat="item in items">
         <div class="thumbnail">
-
+          <!--class="item_thumb" for displaying thumbnail in cart--> 
           <img ng-src="{{item.img}}">
-          <h4>{{item.name}}</h4>
-          <h4>${{item.price}}</h4>
-
-          <ngcart-addtocart id="{{item.id}}"
-          name="{{item.name}}"
-          price="{{item.price}}">
-            Add to Cart
-          </ngcart-addtocart>
-
+          <h4 class="item_name">{{item.name}}</h4>
+          <h4 class="item_price">${{item.price}}</h4>
+          <p>
+          <select class="item_Size">
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>  
+          </select>
+          </p>       
+          <!--input type="checkbox" class="item_color" value="Blue"/><label>Blue</label>
+          <input type="checkbox" class="item_color" value="Yellow"/><label>Yellow</label>
+          <input type="checkbox" class="item_color" value="Red"/><label>Red</label-->
+          <!--input type="hidden" class="item_shipping" value="20" />  
+          <input type="text" class="item_quantity" value="1" /-->
+          <p>
+          <input type="button" class="item_add btn btn-primary" 
+          value="Add to Cart">
+          </p>
         </div>
       </div>
 
     </div>
   </div>
-  
-  <!-- Cart -->
-  <div class="cart" ng-controller="cartCtrl">
-    <div class="container">
 
-      <ngcart-cart>
-      </ngcart-cart>
+  <!-- Cart -->
+  <div class="cart">
+    <div class="container">
+      <!--a href="javascript:;" class="simpleCart_empty">empty cart</a-->
+      <p>
+        <div class="simpleCart_items"></div>
+      </p>
+
+      <p class=>
+        Shipping: <span id="simpleCart_shipping" 
+        class="simpleCart_shipping"></span>
+      </p>
+      
+      <p class=>
+        Final Total: <span id="simpleCart_grandTotal" 
+        class="simpleCart_grandTotal"></span>
+      </p>
       
       <div class="pull-left">
         <button class="btn btn-default discover">
           Back to Store
-        </button>
+        </button>  
       </div>
 
       <div class="pull-right">
-        <ngcart-checkout service="paypal" settings="{
-        business: 'wsjwong@outlook.com',
-        item_number: 'From Simple Store',
-        currency_code: 'HKD',
-        }"
-        </ngcart-checkout>
+        <button class="btn btn-default simpleCart_checkout">
+          <i class="fa fa-paypal"></i>
+          Check Out
+        </button>
       </div>
-        
+
     </div>
   </div>
 
 </body>
 
 <!-- Latest jquery compiled and minified JavaScript -->
-<script src="assets/js/jquery-1.11.3.min.js"></script>
+<script src="assets/js/jquery-2.1.4.min.js"></script>
 
 <!-- Latest bootstrap compiled and minified JavaScript -->
 <script src="assets/js/bootstrap.min.js"></script>
@@ -122,7 +152,25 @@
 <script src="assets/js/angular.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/controllers/itemCtrl.js"></script>
-<script src="assets/js/controllers/cartCtrl.js"></script>
-<script src="assets/js/ngCart.js"></script>
+<script src="assets/js/simpleCart.js"></script>
+<script>
+simpleCart({
+  checkout: { 
+    type: "PayPal", 
+    email: "wsjwong@outlook.com",
+  },
+  currency: "HKD",
+  cartStyle: "table",
+  cartColumns: [
+    { view: "remove" , text: "Remove" , label: false },
+    { attr: "name" , label: "Name" },
+    { attr: "price" , label: "Amount", view: 'currency' },
+    { view: "decrement" , label: false , text: "-" },
+    { attr: "quantity" , label: "Quantity" },
+    { view: "increment" , label: false , text: "+" },
+    { attr: "total" , label: "SubTotal", view: 'currency' },
+  ]
+});
+</script>
 
 </html>

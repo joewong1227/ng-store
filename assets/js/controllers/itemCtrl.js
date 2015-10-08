@@ -20,6 +20,18 @@ app.controller("itemCtrl", function($scope) {
       },
       {
         id: 004,
+        img: "img/item/003.jpg",
+        name: "Cool T Shirt",
+        price: 20,
+      },
+      {
+        id: 005,
+        img: "img/item/002.jpg",
+        name: "Cool T Shirt",
+        price: 20,
+      },
+      {
+        id: 006,
         img: "img/item/001.jpg",
         name: "Cool T Shirt",
         price: 20,
