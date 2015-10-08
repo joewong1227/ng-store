@@ -1,0 +1,32 @@
+.item {
+  margin-top: 50px;
+  padding-top: 20px;
+  text-align: center;
+  display: none;
+}
+
+.item img {
+  height:200px;
+}
+
+.item .col-md-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.item .btn-primary {
+  background-color: #fff;
+  color: #000;
+  border-color: #efefef;
+  border-width: 2px;
+}
+
+.item .btn-primary:hover {
+  border-color: #efefef;
+  color: #000;
+}
+
+.item .btn-primary:active {
+  background-color: #fff !important;
+  border-color: #efefef !important;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<!-- Basic Information -->
+<title>Simple Store</title>
+<meta charset="utf-8">
+<meta name="description" content="A responsive store">
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+<!-- Respnsive and Not user-scalable -->
+<meta name="viewport" content="width=device-width,
+ initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+
+<!-- Font-awesome CSS -->
+<link rel="stylesheet" href="assets/css/font-awesome.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/item.css">
+<link rel="stylesheet" href="assets/css/cart.css">
+
+</head>
+
+<body ng-app="store">
+
+<div class="loading"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-fixed-top">
+
+        <!-- Brand Name-->
+        <a href="#">
+          <div class ="navbar-brand">Simple Store</div>
+        </a>
+
+        <!-- Cart -->
+        <a href="#">
+          <div class="pull-right nav-cart">
+            <i class="fa fa-shopping-cart fa-lg"></i>
+          </div>
+        </a>
+
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron active">
+    <div class="container-fluid">
+      <h1>Fall</h1>
+      <h3>Prepare for the Season</h3>
+      <button class="btn btn-primary btn-lg discover">
+        Discover
+      </button>
+    </div>
+  </div>
+
+  <!-- Item --> 
+  <div class="item" ng-controller="itemCtrl">
+    <div class="container">
+
+      <div class="col-md-4" ng-repeat="item in items">
+        <div class="thumbnail">
+
+          <img ng-src="{{item.img}}">
+          <h4>{{item.name}}</h4>
+          <h4>${{item.price}}</h4>
+
+          <ngcart-addtocart id="{{item.id}}"
+          name="{{item.name}}"
+          price="{{item.price}}">
+            Add to Cart
+          </ngcart-addtocart>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <!-- Cart -->
+  <div class="cart" ng-controller="cartCtrl">
+    <div class="container">
+
+      <ngcart-cart>
+      </ngcart-cart>
+      
+      <div class="pull-left">
+        <button class="btn btn-default discover">
+          Back to Store
+        </button>
+      </div>
+
+      <div class="pull-right">
+        <ngcart-checkout service="paypal" settings="{
+        business: 'wsjwong@outlook.com',
+        item_number: 'From Simple Store',
+        currency_code: 'HKD',
+        }"
+        </ngcart-checkout>
+      </div>
+        
+    </div>
+  </div>
+
+</body>
+
+<!-- Latest jquery compiled and minified JavaScript -->
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+
+<!-- Latest bootstrap compiled and minified JavaScript -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Custom JS -->
+<script src="assets/js/animation.js"></script>
+
+<!-- AngularJS -->
+<script src="assets/js/angular.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/controllers/itemCtrl.js"></script>
+<script src="assets/js/controllers/cartCtrl.js"></script>
+<script src="assets/js/ngCart.js"></script>
+
+</html>

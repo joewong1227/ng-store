@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  position: relative;
+}
+
+.loading {
+  height: 100%;
+  width: 100%;
+  background: url('../../img/loading.gif');
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-position: center;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.60);
+  border: none;
+  max-height: 50px;
+  padding-left: 15px;
+  padding-right: 30px; /* 15px + brand padding-left 15px*/
+  display: none;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  background-color: transparent !important;
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.nav-cart {
+  padding-top: 15px;
+  color: #fff;
+}
+
+.jumbotron {
+  display: none;
+  background-image: url('../../img/fall.jpg');
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 180px;
+  color: #fff;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  margin-bottom: 3px;
+}
+
+.jumbotron .btn-primary {
+  margin-top: 15px;
+  background-color: transparent;
+  border-color: #fff;
+  border-width: 2px; 
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.jumbotron .btn-primary:hover {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.jumbotron .btn-primary:active {
+  background-color: transparent !important;
+  border-color: #fff !important;
+}

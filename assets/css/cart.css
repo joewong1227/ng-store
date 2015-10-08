@@ -1,0 +1,12 @@
+.cart {
+  display: none;
+  margin-top: 50px;
+}
+
+.cart .pull-left {
+  padding-left: 15px;
+}
+
+.cart .pull-right {
+  padding-right: 15px;
+}
