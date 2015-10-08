@@ -1,12 +1,25 @@
 .cart {
   display: none;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
-.cart .pull-left {
-  padding-left: 15px;
+.simpleCart_items table {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.cart .pull-right {
-  padding-right: 15px;
+.simpleCart_items table, th, td{
+  border: 1px solid;
+  border-color: #ddd;
+  text-align: center;
+}
+
+.cart a {
+  color: #333;
+}
+
+.cart a:hover {
+  background-color: transparent !important;
+  color: #333;
+  text-decoration: none;
 }
