@@ -87,16 +87,20 @@
             <option value="Medium">Medium</option>
             <option value="Large">Large</option>  
           </select>
-          </p>       
+          </p>
+
+          <!-- Color --> 
           <!--input type="checkbox" class="item_color" value="Blue"/><label>Blue</label>
           <input type="checkbox" class="item_color" value="Yellow"/><label>Yellow</label>
           <input type="checkbox" class="item_color" value="Red"/><label>Red</label-->
           <!--input type="hidden" class="item_shipping" value="20" />  
           <input type="text" class="item_quantity" value="1" /-->
+
           <p>
           <input type="button" class="item_add btn btn-primary" 
           value="Add to Cart">
           </p>
+
         </div>
       </div>
 
@@ -106,7 +110,9 @@
   <!-- Cart -->
   <div class="cart">
     <div class="container">
-      <!--a href="javascript:;" class="simpleCart_empty">empty cart</a-->
+      <a href="javascript:;" class="btn btn-default simpleCart_empty">
+        Empty Cart
+      </a>
       <p>
         <div class="simpleCart_items"></div>
       </p>
@@ -151,27 +157,8 @@
 <!-- AngularJS -->
 <script src="assets/js/angular.js"></script>
 <script src="assets/js/app.js"></script>
-<script src="assets/js/controllers/itemCtrl.js"></script>
 <script src="assets/js/simpleCart.js"></script>
-<script>
-simpleCart({
-  checkout: { 
-    type: "PayPal", 
-    email: "wsjwong@outlook.com",
-  },
-  currency: "HKD",
-  shippingFlatRate: 20,
-  cartStyle: "table",
-  cartColumns: [
-    { view: "remove" , text: "x" , label: false },
-    { attr: "name" , label: "Name" },
-    { attr: "price" , label: "Amount", view: 'currency' },
-    { view: "decrement" , label: false , text: "-" },
-    { attr: "quantity" , label: "Quantity" },
-    { view: "increment" , label: false , text: "+" },
-    { attr: "total" , label: "SubTotal", view: 'currency' },
-  ]
-});
-</script>
+<script src="assets/js/controllers/itemCtrl.js"></script>
+<script src="assets/js/main.js"></script>
 
 </html>
