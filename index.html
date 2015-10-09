@@ -110,29 +110,29 @@
       <p>
         <div class="simpleCart_items"></div>
       </p>
+      
+      <p>
+        Shipping: 
+        <span id="simpleCart_shipping" class="simpleCart_shipping"></span>
+      </p>
 
-      <p class=>
-        Shipping: <span id="simpleCart_shipping" 
-        class="simpleCart_shipping"></span>
+      <p>
+        Total:
+        <span id="simpleCart_grandTotal" class="simpleCart_grandTotal"></span>
       </p>
       
-      <p class=>
-        Final Total: <span id="simpleCart_grandTotal" 
-        class="simpleCart_grandTotal"></span>
-      </p>
-      
-      <div class="pull-left">
+      <p class="pull-left">
         <button class="btn btn-default discover">
           Back to Store
         </button>  
-      </div>
+      </p>
 
-      <div class="pull-right">
+      <p>
         <button class="btn btn-default simpleCart_checkout">
           <i class="fa fa-paypal"></i>
           Check Out
         </button>
-      </div>
+      </p>
 
     </div>
   </div>
@@ -160,6 +160,7 @@ simpleCart({
     email: "wsjwong@outlook.com",
   },
   currency: "HKD",
+  shippingFlatRate: 20,
   cartStyle: "table",
   cartColumns: [
     { view: "remove" , text: "Remove" , label: false },

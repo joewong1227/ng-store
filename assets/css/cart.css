@@ -3,14 +3,11 @@
   margin-top: 70px;
 }
 
-.simpleCart_items table {
-  width: 100%;
-  margin-bottom: 20px;
+.cart p {
+  text-align: right;
 }
 
-.simpleCart_items table, th, td{
-  border: 1px solid;
-  border-color: #ddd;
+.simpleCart_items table, th{
   text-align: center;
 }
 

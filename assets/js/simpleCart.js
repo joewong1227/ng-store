@@ -626,7 +626,7 @@
 						TH = isTable ? 'th' : 'div',
 						TD = isTable ? 'td' : 'div',
 						THEAD = isTable ? 'thead' : 'div',
-						cart_container = simpleCart.$create(TABLE),
+						cart_container = simpleCart.$create(TABLE).addClass('table table-striped'),
 						thead_container = simpleCart.$create(THEAD),
 						header_container = simpleCart.$create(TR).addClass('headerRow'),
 						container = simpleCart.$(selector),

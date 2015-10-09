@@ -1,4 +1,3 @@
-
 $(window).ready(function(){
   $('.loading').fadeOut(500,function(){
     $('.navbar').fadeIn(1000);
