@@ -77,7 +77,7 @@
 
       <div class="col-md-4 simpleCart_shelfItem" ng-repeat="item in items">
         <div class="thumbnail">
-          <!--class="item_thumb" for displaying thumbnail in cart--> 
+
           <img ng-src="{{item.img}}">
           <h4 class="item_name">{{item.name}}</h4>
           <h4 class="item_price">${{item.price}}</h4>
@@ -97,7 +97,8 @@
           <input type="text" class="item_quantity" value="1" /-->
 
           <p>
-          <input type="button" class="item_add btn btn-primary" 
+          <input type="button"
+          class="item_add btn btn-primary" 
           value="Add to Cart">
           </p>
 
@@ -113,6 +114,7 @@
       <a href="javascript:;" class="btn btn-default simpleCart_empty">
         Empty Cart
       </a>
+      <!--class="item_thumb" for displaying thumbnail in cart--> 
       <p>
         <div class="simpleCart_items"></div>
       </p>
