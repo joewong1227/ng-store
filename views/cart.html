@@ -1,0 +1,43 @@
+<!-- Cart -->
+<script>
+simpleCart.update();
+</script>
+<div class="cart">
+  <div class="container">
+    <a href="javascript:;">
+      <button class="btn btn-default simpleCart_empty">
+        Empty Cart
+      </button>
+    </a>
+    <!--class="item_thumb" for displaying thumbnail in cart--> 
+    <p>
+      <div class="simpleCart_items"></div>
+    </p>
+    
+    <p>
+      Shipping: 
+      <span id="simpleCart_shipping" class="simpleCart_shipping"></span>
+    </p>
+
+    <p>
+      Total:
+      <span id="simpleCart_grandTotal" class="simpleCart_grandTotal"></span>
+    </p>
+    
+    <p class="pull-left">
+      <a href="#/item">
+        <button class="btn btn-default discover">
+          Back to Store
+        </button>
+      </a>
+    </p>
+
+    <p>
+      <button class="btn btn-default simpleCart_checkout">
+        <i class="fa fa-paypal"></i>
+        Check Out
+      </button>
+    </p>
+
+  </div>
+</div>

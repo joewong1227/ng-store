@@ -7,6 +7,10 @@ body {
   position: relative;
 }
 
+.ng-scope {
+  height: 100%;
+}
+
 .loading {
   height: 100%;
   width: 100%;
@@ -22,7 +26,6 @@ body {
   max-height: 50px;
   padding-left: 15px;
   padding-right: 30px; /* 15px + brand padding-left 15px*/
-  display: none;
 }
 
 .navbar a {
@@ -44,7 +47,6 @@ body {
 }
 
 .jumbotron {
-  display: none;
   background-image: url('../../img/fall.jpg');
   height: 100%;
   background-size: cover;
