@@ -1,4 +1,4 @@
-var app = angular.module("store", ['ngRoute']);
+var app = angular.module("store", ['ngRoute','ngAnimate']);
 
 app.config(function ($routeProvider) {
   $routeProvider
