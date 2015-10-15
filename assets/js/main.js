@@ -3,6 +3,9 @@ simpleCart({
   checkout: { 
     type: "PayPal", 
     email: "wsjwong@outlook.com",
+    sandbox: true,
+    success: "success.html",
+    cancel: "cancel.html" 
   },
   currency: "HKD",
   shippingFlatRate: 20,
@@ -18,12 +21,12 @@ simpleCart({
   ]
 });
 
-//Check if item exist before add
+//Check if item exists before add
 simpleCart.bind( 'beforeAdd' , function( item ){
   if ( simpleCart.has( item )){
     return false;
   }
   else {
-    //continue adding
+    return true; 
   } 
 });
