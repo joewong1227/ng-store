@@ -1,10 +1,9 @@
 $(window).ready(function(){
   $('.loading').fadeOut(500,function(){
-    $('.navbar').fadeIn(1000);
-    $('.jumbotron').fadeIn(1000); /* shd be 1000 after done */
+    //$('.jumbotron').fadeIn(1000); /* shd be 1000 after done */
   });
 });
-
+/*
 $('.navbar-brand').click(function(){
   $('.active').fadeOut(500,function(){
     $('.jumbotron').fadeIn(500);
@@ -28,3 +27,4 @@ $('.nav-cart').click(function(){
   });
   $('.active').removeClass('active');
 });
+*/

@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="stylesheet" href="assets/css/item.css">
 <link rel="stylesheet" href="assets/css/cart.css">
+<link rel="stylesheet" href="assets/css/animation.css">
 
 </head>
 
@@ -31,120 +32,24 @@
 
 <div class="loading"></div>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-fixed-top">
+<!-- Navigation Bar -->
+<nav class="navbar navbar-fixed-top">
 
-        <!-- Brand Name-->
-        <a href="javascript:;">
-          <div class ="navbar-brand">Simple Store</div>
-        </a>
-
-        <!-- Cart -->
-        <a href="javascript:;">
-          <div class="pull-right nav-cart">
-            <i class="fa fa-shopping-cart fa-lg"></i>
-          </div>
-        </a>
-
-  </nav>
-
-  <!-- Jumbotron -->
-  <div class="jumbotron active">
-    <div class="container-fluid">
-      <h1>Fall</h1>
-      <h3>Prepare for the Season</h3>
-      <p>
-        <button class="btn btn-primary btn-lg discover">
-          Discover
-        </button>
-      </p>
-      <div class="icons">
-        <p>
-          <a target="_blank" href="http://facebook.com">
-            <i class="fa fa-facebook-square fa-lg"></i>
-          </a> &nbsp;
-          <a target="_blank" href="http://instagram.com">
-            <i class="fa fa-instagram fa-lg"></i>
-          </a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Item --> 
-  <div class="item" ng-controller="itemCtrl">
-    <div class="container">
-
-      <div class="col-md-4 simpleCart_shelfItem" 
-      ng-repeat="item in items | orderBy:'sort' ">
-        <div class="thumbnail">
-
-          <img ng-src="{{item.img}}">
-          <h4 class="item_name">{{item.name}}</h4>
-          <h4 class="item_price">${{item.price}}</h4>
-          <p>
-          <select class="item_Size">
-            <option value="Small">Small</option>
-            <option value="Medium">Medium</option>
-            <option value="Large">Large</option>  
-          </select>
-          </p>
-
-          <!-- Color --> 
-          <!--input type="checkbox" class="item_color" value="Blue"/><label>Blue</label>
-          <input type="checkbox" class="item_color" value="Yellow"/><label>Yellow</label>
-          <input type="checkbox" class="item_color" value="Red"/><label>Red</label-->
-          <!--input type="hidden" class="item_shipping" value="20" />  
-          <input type="text" class="item_quantity" value="1" /-->
-
-          <p>
-          <input type="button"
-          class="item_add btn btn-primary" 
-          value="Add to Cart">
-          </p>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
+  <!-- Brand Name-->
+  <a href="#/home">
+    <div class ="navbar-brand">Simple Store</div>
+  </a>
 
   <!-- Cart -->
-  <div class="cart">
-    <div class="container">
-      <a href="javascript:;" class="btn btn-default simpleCart_empty">
-        Empty Cart
-      </a>
-      <!--class="item_thumb" for displaying thumbnail in cart--> 
-      <p>
-        <div class="simpleCart_items"></div>
-      </p>
-      
-      <p>
-        Shipping: 
-        <span id="simpleCart_shipping" class="simpleCart_shipping"></span>
-      </p>
-
-      <p>
-        Total:
-        <span id="simpleCart_grandTotal" class="simpleCart_grandTotal"></span>
-      </p>
-      
-      <p class="pull-left">
-        <button class="btn btn-default discover">
-          Back to Store
-        </button>  
-      </p>
-
-      <p>
-        <button class="btn btn-default simpleCart_checkout">
-          <i class="fa fa-paypal"></i>
-          Check Out
-        </button>
-      </p>
-
+  <a href="#/cart">
+    <div class="pull-right nav-cart">
+      <i class="fa fa-shopping-cart fa-lg"></i>
     </div>
-  </div>
+  </a>
+
+</nav>
+
+<div ng-view class="fade"></div>
 
 </body>
 
@@ -159,6 +64,8 @@
 
 <!-- AngularJS -->
 <script src="assets/js/angular.js"></script>
+<script src="assets/js/angular-route.js"></script>
+<script src="assets/js/angular-animate.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/simpleCart.js"></script>
 <script src="assets/js/controllers/itemCtrl.js"></script>
