@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.item img {
+.item .thumbnail a > img {
   height:200px;
 }
 

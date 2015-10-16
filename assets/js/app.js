@@ -10,6 +10,10 @@ app.config(function ($routeProvider) {
       controller: 'itemCtrl',
       templateUrl: 'views/item.html'
     })
+    .when('/details/:id', {
+      //controller: 'PhotoController',
+      templateUrl: 'views/cart.html'
+    })
     .when('/cart', {
       //controller: 'PhotoController',
       templateUrl: 'views/cart.html'

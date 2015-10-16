@@ -6,7 +6,9 @@
     ng-repeat="item in items | orderBy:'sort' ">
       <div class="thumbnail">
 
-        <img ng-src="{{item.img}}">
+        <a href=#/details/{{$index}}>
+          <img ng-src="{{item.img}}">
+        </a>
         <h4 class="item_name">{{item.name}}</h4>
         <h4 class="item_price">${{item.price}}</h4>
         <p>
