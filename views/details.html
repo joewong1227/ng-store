@@ -1,0 +1,38 @@
+<!-- details --> 
+<div class="details" ng-controller="detailsCtrl">
+  <div class="container">
+
+      <div class="thumbnail">
+
+        <a href=#/details/{{$index}}>
+          <img ng-src="{{item.img}}">
+        </a>
+        <h4 class="item_name">{{item.name}}</h4>
+        <h4 class="item_name">{{item.description}}</h4>
+        <h4 class="item_price">${{item.price}}</h4>
+        <p>
+        <select class="item_Size">
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>  
+        </select>
+        </p>
+
+        <!-- Color --> 
+        <!--input type="checkbox" class="item_color" value="Blue"/><label>Blue</label>
+        <input type="checkbox" class="item_color" value="Yellow"/><label>Yellow</label>
+        <input type="checkbox" class="item_color" value="Red"/><label>Red</label-->
+        <!--input type="hidden" class="item_shipping" value="20" />  
+        <input type="text" class="item_quantity" value="1" /-->
+
+        <p>
+        <input type="button"
+        class="item_add btn btn-default" 
+        value="Add to Cart">
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+</div>

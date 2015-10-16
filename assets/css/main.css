@@ -28,6 +28,8 @@ body {
   max-height: 50px;
   padding-left: 15px;
   padding-right: 30px; /* 15px + brand padding-left 15px*/
+  position: absolute;
+  text-align: center;
 }
 
 .navbar a {
@@ -41,6 +43,8 @@ body {
 
 .navbar-brand {
   color: #fff;
+  position: absolute;
+  width: 100%;
 }
 
 .nav-cart {
