@@ -44,10 +44,13 @@ body {
   color: #fff;
   letter-spacing: .2em;
   position: absolute;
-  width: 100%;
-  left: 0;
-  text-align: center;
-  margin: auto;
+  left: 50%;
+  margin-left: -57px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+.navbar a:hover {
+  color: #7F7F7F !important;
 }
 
 .icons {
