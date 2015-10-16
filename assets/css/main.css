@@ -23,7 +23,7 @@ body {
   background-position: center;
 }
 
-.nav {
+.nav a {
   color: #fff;
 }
 
@@ -35,8 +35,9 @@ body {
   padding-right: 30px; /* 15px + brand padding-left 15px*/
 }
 
-.navbar a:hover {
+.nav a:hover {
   color: #7F7F7F !important;
+  background-color: transparent !important;
 }
 
 .navbar-brand {
@@ -47,10 +48,6 @@ body {
   left: 0;
   text-align: center;
   margin: auto;
-}
-
-.nav-cart {
-  padding-top: 15px;
 }
 
 .icons {
