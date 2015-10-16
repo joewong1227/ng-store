@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url('../../img/fall.jpg');
+  background-color: #996633;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,8 +21,8 @@
 
 .jumbotron .btn-primary:hover {
   background-color: transparent;
-  border-color: #fff;
-  color: #fff;
+  border-color: #7F7F7F;
+  color: #7F7F7F;
 }
 
 .jumbotron .btn-primary:active {
@@ -36,6 +36,6 @@
 
 .jumbotron a:hover {
   background-color: transparent !important;
-  color: #fff;
+  color: #7F7F7F;
   text-decoration: none;
 }

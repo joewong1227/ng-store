@@ -2,6 +2,7 @@ html {
   height: 100%;
   letter-spacing: .2em;
   font-size: .875em;
+  text-transform: uppercase;
 }
 
 body {
@@ -22,34 +23,34 @@ body {
   background-position: center;
 }
 
+.nav {
+  color: #fff;
+}
+
 .navbar {
   background: rgba(0, 0, 0, 0.60);
   border: none;
   max-height: 50px;
   padding-left: 15px;
   padding-right: 30px; /* 15px + brand padding-left 15px*/
-  position: absolute;
-  text-align: center;
-}
-
-.navbar a {
-  color: #fff;
 }
 
 .navbar a:hover {
-  background-color: transparent !important;
-  color: #fff;
+  color: #7F7F7F !important;
 }
 
 .navbar-brand {
   color: #fff;
+  letter-spacing: .2em;
   position: absolute;
   width: 100%;
+  left: 0;
+  text-align: center;
+  margin: auto;
 }
 
 .nav-cart {
   padding-top: 15px;
-  color: #fff;
 }
 
 .icons {
