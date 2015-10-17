@@ -21,4 +21,12 @@ body {
 
 .navbar {
   border: none;
+  padding-left: 15px;
+}
+
+.nav-cart {
+  background-image: url('../../img/circle.png');
+  background-size: 25px 25px ;
+  background-repeat: no-repeat; 
+  background-position: 40% 50%;
 }
