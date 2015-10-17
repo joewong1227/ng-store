@@ -2,14 +2,12 @@
 <div class="details" ng-controller="detailsCtrl">
   <div class="container">
 
-      <div class="thumbnail">
+      <div class="thumbnail simpleCart_shelfItem">
 
-        <a href=#/details/{{$index}}>
-          <img ng-src="{{item.img}}">
-        </a>
-        <h4 class="item_name">{{item.name}}</h4>
-        <h4 class="item_name">{{item.description}}</h4>
-        <h4 class="item_price">${{item.price}}</h4>
+        <img ng-src="{{details.img}}">
+        <h4 class="item_name">{{details.name}}</h4>
+        <h4>{{details.description}}</h4>
+        <h4 class="item_price">${{details.price}}</h4>
         <p>
         <select class="item_Size">
           <option value="Small">Small</option>
