@@ -23,7 +23,7 @@ body {
   background-position: center;
 }
 
-.nav a {
+/* .nav a {
   color: #fff;
 }
 
@@ -32,7 +32,7 @@ body {
   border: none;
   max-height: 50px;
   padding-left: 15px;
-  padding-right: 30px; /* 15px + brand padding-left 15px*/
+  padding-right: 30px; /* 15px + brand padding-left 15px
 }
 
 .nav a:hover {
@@ -45,19 +45,10 @@ body {
   letter-spacing: .2em;
   position: absolute;
   left: 50%;
-  margin-left: -57px !important;  /* 50% of your logo width */
+  margin-left: -57px !important;  /* 50% of your logo width 
   display: block;
 }
 
 .navbar a:hover {
   color: #7F7F7F !important;
-}
-
-.icons {
-  opacity: 0.7;
-  position: absolute;
-  bottom: 0px;
-  margin: auto;
-  left: 0px;
-  right: 0px;
-}
+} */

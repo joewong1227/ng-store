@@ -2,15 +2,17 @@
 <div class="item" ng-controller="itemCtrl">
   <div class="container">
 
-    <div class="col-md-4 simpleCart_shelfItem" 
+    <div class="col-md-3 simpleCart_shelfItem" 
     ng-repeat="item in items | orderBy: 'sort' ">
       <div class="thumbnail">
 
-        <a href=#/details/{{$index}}>
-          <img ng-src="{{item.img}}">
-        </a>
-        <h4 class="item_name">{{item.name}}</h4>
-        <h4 class="item_price">${{item.price}}</h4>
+        <p>
+          <a href=#/details/{{$index}}>
+            <img ng-src="{{item.img}}">
+          </a>
+        </p>
+        <p class="item_name">{{item.name}}</p>
+        <p class="item_price">${{item.price}}</p>
         <p>
         <select class="item_Size">
           <option value="Small">Small</option>
