@@ -11,8 +11,8 @@ app.config(function ($routeProvider) {
       templateUrl: 'views/item.html'
     })
     .when('/details/:id', {
-      //controller: 'PhotoController',
-      templateUrl: 'views/cart.html'
+      controller: 'detailsCtrl',
+      templateUrl: 'views/details.html'
     })
     .when('/cart', {
       //controller: 'PhotoController',
