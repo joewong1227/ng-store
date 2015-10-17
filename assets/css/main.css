@@ -10,10 +10,6 @@ body {
   position: relative;
 }
 
-.ng-scope {
-  height: 100%;
-}
-
 .loading {
   height: 100%;
   width: 100%;
