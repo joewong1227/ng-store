@@ -1,17 +1,19 @@
-.jumbotron {
-  margin-bottom: 3px;
-  text-align: center;
-}
-
-.jumbotron img{
+.home img{
   width: 100%;
 }
 
 footer {
-  background-color: "black"
+  background-color: black;
   text-align: center;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
-.icons {
-  opacity: 0.7;
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  color: #7F7F7F;
 }
