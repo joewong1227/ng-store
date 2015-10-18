@@ -30,3 +30,7 @@ simpleCart.bind( 'beforeAdd' , function( item ){
     return true; 
   } 
 });
+
+$('.nav a').on('click', function(){
+  $('.navbar-toggle').click();
+});

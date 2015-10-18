@@ -25,12 +25,10 @@ simpleCart.update();
       <span id="simpleCart_grandTotal" class="simpleCart_grandTotal"></span>
     </p>
     
-    <p class="pull-left">
-      <a href="#/item">
-        <button class="btn btn-default discover">
-          Back to Store
+    <p class="pull-left" ng-controller="detailsCtrl">
+        <button ng-click="doBack()" class="btn btn-default">
+          Back
         </button>
-      </a>
     </p>
 
     <p>
