@@ -7,3 +7,13 @@
   margin-bottom: 10px;
   width: 100%;
 }
+
+.details .img-container {
+    position:relative;
+}
+
+.details .button {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+}
