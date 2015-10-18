@@ -7,17 +7,22 @@
 }
 
 footer {
-  background-color: black;
+  background-color: #f8f8f8;
   text-align: center;
-  color: white;
+  color: #777;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
-footer a{
-  color: white;
+footer a {
+  color: #777;
 }
 
-footer a:hover{
-  color: #7F7F7F;
+footer a:hover {
+  color: black;
+}
+
+.copyright {
+  letter-spacing: .1em;
+  font-size: .75em;
 }

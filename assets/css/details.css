@@ -1,5 +1,9 @@
 .details {
   margin-top: 50px;
   padding-top: 20px;
-  text-align: center;
+}
+
+.details .thumbnail img {
+  margin-bottom: 10px;
+  width: 100%;
 }

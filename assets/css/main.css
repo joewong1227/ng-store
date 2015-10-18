@@ -22,6 +22,7 @@ body {
 .navbar {
   border: none;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 .nav-cart {

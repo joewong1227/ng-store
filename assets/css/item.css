@@ -2,8 +2,8 @@
   padding-top: 70px;
 }
 
-.item .thumbnail a > img {
-  height:200px;
+.item .thumbnail a img {
+  width: 100%;
 }
 
 .item .col-md-4 {

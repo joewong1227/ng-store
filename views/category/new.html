@@ -1,0 +1,41 @@
+<!-- New --> 
+<div class="item" ng-controller="itemCtrl">
+  <div class="container">
+
+    <div class="col-md-4 simpleCart_shelfItem" 
+    ng-repeat="item in items | orderBy: 'sort' | filter: new = 'yes' ">
+      <div class="thumbnail">
+
+        <p>
+          <a href=#/details/{{$index}}>
+            <img ng-src="{{item.img}}">
+          </a>
+        </p>
+        <p class="item_name">{{item.name}}</p>
+        <p class="item_price">${{item.price}}</p>
+        <p>
+        <select class="item_Size">
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>  
+        </select>
+        </p>
+
+        <!-- Color --> 
+        <!--input type="checkbox" class="item_color" value="Blue"/><label>Blue</label>
+        <input type="checkbox" class="item_color" value="Yellow"/><label>Yellow</label>
+        <input type="checkbox" class="item_color" value="Red"/><label>Red</label-->
+        <!--input type="hidden" class="item_shipping" value="20" />  
+        <input type="text" class="item_quantity" value="1" /-->
+
+        <p>
+        <input type="button"
+        class="item_add btn btn-default" 
+        value="Add to Cart">
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+</div>
