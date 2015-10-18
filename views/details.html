@@ -3,8 +3,13 @@
   <div class="container">
 
       <div class="thumbnail simpleCart_shelfItem">
-
-        <img ng-src="{{details.img}}" alt={{details.name}}>
+        
+        <div class="img-container">
+          <img ng-src="{{details.img}}" alt={{details.name}}>
+          <button ng-click="doBack()" class="btn btn-default button">
+            back
+          </button>
+        </div>
         <p class="item_name">{{details.name}}</p>
         <p>{{details.description}}</p>
         <p>{{details.material}}</p>

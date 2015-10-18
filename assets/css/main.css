@@ -19,6 +19,12 @@ body {
   background-position: center;
 }
 
+.btn {
+  letter-spacing: .2em;
+  font-size: .875em;
+  text-transform: uppercase;
+}
+
 .navbar {
   border: none;
   padding-left: 15px;
@@ -30,10 +36,4 @@ body {
   background-size: 25px 25px ;
   background-repeat: no-repeat; 
   background-position: 40% 50%;
-}
-
-.btn {
-  letter-spacing: .2em;
-  font-size: .875em;
-  text-transform: uppercase;
 }
