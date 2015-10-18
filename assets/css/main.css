@@ -31,3 +31,9 @@ body {
   background-repeat: no-repeat; 
   background-position: 40% 50%;
 }
+
+.btn {
+  letter-spacing: .2em;
+  font-size: .875em;
+  text-transform: uppercase;
+}
