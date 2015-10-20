@@ -7,31 +7,31 @@ app.config(function ($routeProvider) {
       templateUrl: "views/home.html"
     })
     .when('/item', {
-      controller: 'itemCtrl',
+      controller: 'itemsCtrl',
       templateUrl: 'views/item.html'
     })
     .when('/new', {
-      controller: 'itemCtrl',
+      controller: 'itemsCtrl',
       templateUrl: 'views/category/new.html'
     })
     .when('/top', {
-      controller: 'itemCtrl',
+      controller: 'itemsCtrl',
       templateUrl: 'views/category/top.html'
     })
     .when('/bottom', {
-      controller: 'itemCtrl',
+      controller: 'itemsCtrl',
       templateUrl: 'views/category/bottom.html'
     })
     .when('/shoes', {
-      controller: 'itemCtrl',
+      controller: 'itemsCtrl',
       templateUrl: 'views/category/shoes.html'
     })
     .when('/accessory', {
-      controller: 'itemCtrl',
+      controller: 'itemsCtrl',
       templateUrl: 'views/category/accessory.html'
     })
     .when('/handmade', {
-      controller: 'itemCtrl',
+      controller: 'itemsCtrl',
       templateUrl: 'views/category/handmade.html'
     })
     .when('/details/:id', {

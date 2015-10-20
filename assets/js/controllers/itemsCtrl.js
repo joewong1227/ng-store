@@ -1,4 +1,4 @@
-app.controller("itemCtrl", function($scope, items) {
+app.controller("itemsCtrl", function($scope, items) {
   items.success(function(data){
     $scope.items = data;
   })
