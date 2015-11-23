@@ -11,7 +11,7 @@ simpleCart({
   shippingFlatRate: 20,
   cartStyle: "table",
   cartColumns: [
-    { view: "remove" , text: "Remove" , label: false },
+    { view: "remove" , text: "x" , label: false },
     { attr: "name" , label: "Name" },
     { view: "decrement" , label: false , text: "-" },
     { attr: "quantity" , label: "Quantity" },
@@ -30,6 +30,7 @@ simpleCart.bind( 'beforeAdd' , function( item ){
   } 
 });
 
+//Dismiss menu bar after clicked
 $('#myNavbar a').on('click', function(){
   $('.navbar-toggle').click();
 });

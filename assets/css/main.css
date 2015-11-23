@@ -10,6 +10,11 @@ body {
   position: relative;
 }
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .loading {
   height: 100%;
   width: 100%;

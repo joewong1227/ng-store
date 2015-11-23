@@ -2,9 +2,18 @@
 <div class="details" ng-controller="detailsCtrl">
   <div class="container">
 
-      <div class="thumbnail simpleCart_shelfItem">
+      <div class="thumbnail simpleCart_shelfItem col-md-6">
         
-        <img ng-src="{{details.img}}" alt={{details.name}}>
+
+      <!-- Slideshow -->
+      <div ng-controller="itemsCtrl">
+        <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
+          <uib-slide ng-repeat="slide in slides" active="slide.active">
+            <img ng-src="{{slide.img}}" style="margin:auto;">
+          </uib-slide>
+        </uib-carousel>
+      </div>
+        <!--img ng-src="{{details.img}}" alt={{details.name}}-->
 
         <!--div class="img-container">
         </div-->

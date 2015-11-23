@@ -1,5 +1,7 @@
 app.controller("itemsCtrl", function($scope, items) {
+  $scope.myInterval = 5000;
+  $scope.noWrapSlides = false;
   items.success(function(data){
-    $scope.items = data;
+    $scope.slides = data;
   })
 });

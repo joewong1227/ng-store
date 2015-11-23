@@ -3,8 +3,17 @@
   text-align: center;
 }
 
-.home img{
+.home img {
   width: 100%;
+}
+
+.home p {
+  margin-top: 10px;
+}
+
+.home .col-sm-6 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 footer {

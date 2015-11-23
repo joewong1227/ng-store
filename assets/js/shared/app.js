@@ -1,4 +1,4 @@
-var app = angular.module("store", ['ngRoute','ngAnimate']);
+var app = angular.module("store", ['ngRoute','ngAnimate', 'ui.bootstrap', 'ngTouch']);
 
 app.config(function ($routeProvider) {
   $routeProvider

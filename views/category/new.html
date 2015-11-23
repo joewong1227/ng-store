@@ -1,9 +1,9 @@
 <!-- New --> 
-<div class="item" ng-controller="itemsCtrl">
+<div class="items" ng-controller="itemsCtrl">
   <div class="container">
 
     <div class="col-md-4 simpleCart_shelfItem" 
-    ng-repeat="item in items | orderBy: 'sort' | filter: new = 'yes' ">
+    ng-repeat="item in slides | orderBy: 'sort' | filter: new = 'yes' ">
       <div class="thumbnail">
 
         <p>

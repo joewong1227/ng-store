@@ -1,12 +1,12 @@
-.item {
+.items {
   padding-top: 70px;
 }
 
-.item .thumbnail a img {
+.items .thumbnail a img {
   width: 100%;
 }
 
-.item .col-md-4 {
+.items .col-md-4 {
   padding-left: 10px;
   padding-right: 10px;
 }

@@ -3,6 +3,12 @@
   padding-top: 20px;
 }
 
+/* Center the thumbnail */
+.details .thumbnail {
+  float: none;
+  margin: auto;
+}
+
 .details .thumbnail img {
   margin-bottom: 10px;
   width: 100%;
