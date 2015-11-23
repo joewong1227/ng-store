@@ -1,4 +1,4 @@
-# simpleStore
+# ngStore
 
 [simpleStore](http://cdmedia.github.io/simplestore) is a clean, responsive
 storefront boilerplate with no database you can setup in minutes. simpleStore is built on
