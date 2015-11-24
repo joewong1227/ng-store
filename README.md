@@ -1,5 +1,5 @@
 #ngStore							  
-A clean, responsive online store with no database which enables you to set it up in minutes. ngStore is built on AngularJS framework with simpleCart.js and Bootstrap CSS Framework.
+A clean, responsive and mobile-first online store with no database which enables you to set it up in minutes. ngStore is built on AngularJS framework with simpleCart.js and Bootstrap CSS Framework.
 
 <a href="http://wsjwong.github.io/ngStore/" target="_blank">Demo</a>
 
