@@ -4,7 +4,7 @@
   <div class="col-sm-6">
     <p>Promotion</p>
     <a href="#/item">
-      <img src="img/home/0.jpg" alt="FRIDAY">
+      <img src="img/home/0.jpg" alt="store">
     </a>
   </div>
   <!-- New Arrvial -->
@@ -15,7 +15,7 @@
       <div ng-controller="homeSlidesCtrl">
         <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
           <uib-slide ng-repeat="slide in slides" active="slide.active">
-            <img ng-src="{{slide.img}}" style="margin:auto;">
+            <img ng-src="{{slide.img}}">
           </uib-slide>
         </uib-carousel>
       </div>
