@@ -2,19 +2,19 @@
 A lightweight and responsive store application without database, which enables you to set it up in minutes. ngStore is built on AngularJS framework with <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a> and <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>.
 
 # <a href="http://wsjwong.github.io/ngStore/" target="_blank">Demo</a>
-Note: To see the product page responsive effect, please see the 'New Arrivals' page
+To see the product page responsive effect, please see the 'New Arrivals' page.
 
 # Features
 * Mobile-first Responsive Design
 * No Database
 * Slideshow with Touch Swiping
-* Custom product attributes including Size/Color
+* Product attributes including (but not limited to) Sizes/Colors
 * Sort Products by any attributes
 * Flat rate Shipping
 * Paypal with Multiple Currencies
 
 # Set up
-* Clone from github
+* Clone from GitHub
 * <a href="https://github.com/wsjwong/ngStore/archive/gh-pages.zip" target="_blank">Download ZIP</a>
 
 1.ngStore runs on a web server
@@ -25,6 +25,7 @@ Note: To see the product page responsive effect, please see the 'New Arrivals' p
 checkout: {
 	type: "PayPal" ,
 	email: "you@yours.com"
+	sandbox: true,
 },
 ```
 3.Add products in the `items.json` file.
@@ -42,8 +43,6 @@ All forms of contribution are welcome:
 * Work on To-do List
 * Documentations
 * Suggestions
-
-If you do wish to contribute, please try to follow the [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
 
 [List of contributors](https://github.com/wsjwong/ngStore/graphs/contributors)
 
