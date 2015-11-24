@@ -1,5 +1,5 @@
 #ngStore							  
-A simple, smooth and responsive single page application, built on <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> and <a href="http://getbootstrap.com/javascript/#scrollspy" target="_blank">Scrollspy plugin</a>.
+A clean, responsive online store with no database which enables you to set it up in minutes. ngStore is built on AngularJS framework with simpleCart.js and Bootstrap CSS Framework.
 
 <a href="http://wsjwong.github.io/ngStore/" target="_blank">Demo</a>
 
