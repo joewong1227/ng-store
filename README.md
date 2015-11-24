@@ -1,9 +1,9 @@
 #ngStore							  
-A lightweight and responsive store application without database, which enables you to set it up in minutes. ngStore is built on AngularJS framework with <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a> and Bootstrap.
+A lightweight and responsive store application without database, which enables you to set it up in minutes. ngStore is built on AngularJS framework with <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a> and <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>.
 
 <a href="http://wsjwong.github.io/ngStore/" target="_blank">Demo</a>
 
-#Features
+# Features
 * Mobile-first Responsive Design
 * No Database
 * Slideshow with Touch Swiping
@@ -11,14 +11,13 @@ A lightweight and responsive store application without database, which enables y
 * Sort Products by any attributes
 * Shipping
 * Paypal with Multiple Currencies
+* Payment Success/Cancel Redirect Page
 
-#Set up
+# Set up
 * Clone from github
-* Download ZIP
-* 
-# Setup
+* <a href="https://github.com/wsjwong/ngStore/archive/gh-pages.zip" target="_blank">Download ZIP</a>
 
-1.Make sure ngStore is on a web server (any type will do as long as it can serve static web pages).
+1.Make sure ngStore is on a web server
 
 2.Configure your payment options in `js/config.js`.
 
@@ -34,8 +33,12 @@ checkout: {
 4.Add additional products in the `products.json` file.
 
 #Credit
+* <a href="https://angularjs.org" target="_blank">AngularJS</a>
 * <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-* <a href="https://jquery.com/" target="_blank">jQuery</a>
+* <a href="https://angular-ui.github.io/bootstrap/" target="_blank">UI Bootstrap</a>
+* <a href="http://angular-ui.github.io" target="_blank">AngularUI</a>
+* <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a>
+* Photos by <a href="http://www.pazzo.com.tw" target="_blank">PAZZO</a>
 
 # Contributing
 
