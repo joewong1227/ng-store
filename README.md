@@ -7,6 +7,7 @@ A clean, responsive online store with no database which enables you to set it up
 * Smooth scrollspy effect
 * Responsive design
 * Input form
+* Slideshow with touch swiping
 No Databases, all client-side (just simple HTML, CSS & Javascript)
 Lightweight & Fast
 Tax Rate Calculations
