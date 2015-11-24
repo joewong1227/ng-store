@@ -2,7 +2,7 @@
 simpleCart({
   checkout: { 
     type: "PayPal", 
-    email: "wsjwong@outlook.com",
+    email: "youremail@domain.com",
     sandbox: true,
     success: "success.html",
     cancel: "cancel.html" 
