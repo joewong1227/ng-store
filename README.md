@@ -10,8 +10,7 @@ A lightweight and responsive store application without database, which enables y
 * Custom product attributes including Size/Color
 * Sort Products by any attributes
 * Shipping
-* Multiple Currencies
-* Standard Paypal
+* Paypal with Multiple Currencies
 
 #Set up
 * Clone from github
@@ -19,7 +18,7 @@ A lightweight and responsive store application without database, which enables y
 * 
 # Setup
 
-1.Make sure simpleStore is on a web server (any type will do as long as it can serve static web pages).
+1.Make sure ngStore is on a web server (any type will do as long as it can serve static web pages).
 
 2.Configure your payment options in `js/config.js`.
 
@@ -42,7 +41,6 @@ checkout: {
 
 All forms of contribution are welcome: bug reports, bug fixes, pull requests and simple suggestions.
 If you do wish to contribute, please follow the [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript) Thanks!
-
 
 ## List of contributors
 
