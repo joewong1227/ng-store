@@ -17,9 +17,9 @@ A lightweight and responsive store application without database, which enables y
 * Clone from github
 * <a href="https://github.com/wsjwong/ngStore/archive/gh-pages.zip" target="_blank">Download ZIP</a>
 
-1.Make sure ngStore is on a web server
+1.ngStore runs on a web server
 
-2.Configure your payment options in `js/config.js`.
+2.Configure your payment options in `config.js`.
 
 ```
 checkout: {
