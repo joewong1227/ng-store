@@ -1,21 +1,17 @@
 #ngStore							  
-A responsive and mobile-first store application without database which enables you to set it up in minutes. ngStore is built on AngularJS framework with simpleCart.js and Bootstrap.
-http://simplecartjs.org/
+A lightweight and responsive store application without database, which enables you to set it up in minutes. ngStore is built on AngularJS framework with <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a> and Bootstrap.
+
 <a href="http://wsjwong.github.io/ngStore/" target="_blank">Demo</a>
 
 #Features
-* Smooth scrollspy effect
-* Responsive design
-* Input form
-* Slideshow with touch swiping
-No Databases, all client-side (just simple HTML, CSS & Javascript)
-Lightweight & Fast
-Tax Rate Calculations
-Unlimited product attributes
-Shipping
-Multiple Currencies
-Payment Gateways (Paypal, Google Checkout, Amazon Payments)
-For more features check out simpleCart.js
+* Mobile-first Responsive Design
+* No Database
+* Slideshow with Touch Swiping
+* Custom product attributes including Size/Color
+* Sort Products by any attributes
+* Shipping
+* Multiple Currencies
+* Standard Paypal
 
 #Set up
 * Clone from github
