@@ -32,13 +32,7 @@ checkout: {
 
 4.Add additional products in the `products.json` file.
 
-#Credit
-* <a href="https://angularjs.org" target="_blank">AngularJS</a>
-* <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-* <a href="https://angular-ui.github.io/bootstrap/" target="_blank">UI Bootstrap</a>
-* <a href="http://angular-ui.github.io" target="_blank">AngularUI</a>
-* <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a>
-* Photos by <a href="http://www.pazzo.com.tw" target="_blank">PAZZO</a>
+# To-do
 
 # Contributing
 
@@ -48,3 +42,11 @@ If you do wish to contribute, please follow the [Airbnb Javascript Style Guide](
 ## List of contributors
 
 You can find the list of contributors [here](https://github.com/cdmedia/simplestore/graphs/contributors).
+
+#Credit
+* <a href="https://angularjs.org" target="_blank">AngularJS</a>
+* <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+* <a href="https://angular-ui.github.io/bootstrap/" target="_blank">UI Bootstrap</a>
+* <a href="http://angular-ui.github.io" target="_blank">AngularUI</a>
+* <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a>
+* Photos by <a href="http://www.pazzo.com.tw" target="_blank">PAZZO</a>
