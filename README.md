@@ -36,7 +36,7 @@ There are plenty of custom configurations could be done easily but I have not st
 * Shipping by products weight/quantity
 * More..
 
-## Contributing
+# Contributing
 All forms of contribution are welcome:
 * Bug Reports
 * Bug Fixes
