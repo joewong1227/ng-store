@@ -40,3 +40,13 @@ checkout: {
 #Credit
 * <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
 * <a href="https://jquery.com/" target="_blank">jQuery</a>
+
+# Contributing
+
+All forms of contribution are welcome: bug reports, bug fixes, pull requests and simple suggestions.
+If you do wish to contribute, please follow the [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript) Thanks!
+
+
+## List of contributors
+
+You can find the list of contributors [here](https://github.com/cdmedia/simplestore/graphs/contributors).
