@@ -34,6 +34,7 @@ checkout: {
 There are plenty of custom configurations could be done easily but I have not started the documentation/testing yet:
 * Payment Successful/Cancellalation Redirect Page
 * Shipping by products weight/quantity
+* Hide Safari bars after Adding to home screen
 * More..
 
 # Contributing
