@@ -6,7 +6,7 @@ To see the product page responsive effect, please see the 'New Arrivals' page.
 
 # Features
 * Mobile-first Responsive Design
-* No Database (Consume JSON)
+* No Database
 * Slideshow with Touch Swiping
 * Product attributes including (but not limited to) Sizes/Colors
 * Sort Products by any attributes
