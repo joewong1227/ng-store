@@ -1,7 +1,7 @@
 #ngStore							  
 A lightweight and responsive store application without database, which enables you to set it up in minutes. ngStore is built on AngularJS framework with <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a> and <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>.
 
-# <a href="http://wsjwong.github.io/ngStore/" target="_blank">Demo</a>
+# <a href="http://wsjwong.github.io/ngStore" target="_blank">Demo</a>
 To see the product page responsive effect, please see the 'New Arrivals' page.
 
 # Features
