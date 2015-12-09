@@ -1,7 +1,7 @@
-#ngStore							  
-A lightweight and responsive store application without database, which enables you to set it up in minutes. ngStore is built on AngularJS framework with <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a> and <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>.
+#ng-store						  
+A lightweight and responsive store application without database, which enables you to set it up in minutes. ng-store is built on AngularJS framework with <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a> and <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>.
 
-# <a href="http://wsjwong.github.io/ngStore" target="_blank">Demo</a>
+# <a href="http://wsjwong.github.io/ng-store" target="_blank">Demo</a>
 To see the product page responsive effect, please see the 'New Arrivals' page.
 
 # Features
@@ -15,9 +15,9 @@ To see the product page responsive effect, please see the 'New Arrivals' page.
 
 # Set up
 * Clone from GitHub
-* <a href="https://github.com/wsjwong/ngStore/archive/gh-pages.zip" target="_blank">Download ZIP</a>
+* <a href="https://github.com/wsjwong/ng-store/archive/gh-pages.zip" target="_blank">Download ZIP</a>
 
-1.ngStore runs on a web server
+1.ng-store runs on a web server
 
 2.Configure your payment options in `config.js`.
 
@@ -45,7 +45,7 @@ All forms of contribution are welcome:
 * Documentations
 * Suggestions
 
-[List of contributors](https://github.com/wsjwong/ngStore/graphs/contributors)
+[List of contributors](https://github.com/wsjwong/ng-store/graphs/contributors)
 
 #Credit
 * <a href="https://angularjs.org" target="_blank">AngularJS</a>
