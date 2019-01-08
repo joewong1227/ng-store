@@ -17,9 +17,9 @@ To see the product page responsive effect, please see the 'New Arrivals' page.
 * Clone from GitHub
 * <a href="https://github.com/wsjwong/ng-store/archive/gh-pages.zip" target="_blank">Download ZIP</a>
 
-1.ng-store runs on a web server
+1. ng-store runs on a web server
 
-2.Configure your payment options in `config.js`.
+2. Configure your payment options in `config.js`.
 
 ```
 checkout: {
@@ -28,7 +28,7 @@ checkout: {
 	sandbox: true,
 },
 ```
-3.Add products in the `items.json` file.
+3. Add products in the `items.json` file.
 
 # To-do list
 There are plenty of custom configurations could be done easily but I have not started the documentation/testing yet:
