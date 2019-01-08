@@ -47,7 +47,7 @@ All forms of contribution are welcome:
 
 [List of contributors](https://github.com/wsjwong/ng-store/graphs/contributors)
 
-#Credit
+# Credit
 * <a href="https://angularjs.org" target="_blank">AngularJS</a>
 * <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
 * <a href="https://angular-ui.github.io/bootstrap/" target="_blank">UI Bootstrap</a>
