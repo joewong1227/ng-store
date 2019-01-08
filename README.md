@@ -1,4 +1,4 @@
-#ng-store						  
+# ng-store						  
 A lightweight and responsive store application without database, which enables you to set it up in minutes. ng-store is built on AngularJS framework with <a href ="http://simplecartjs.org/" target="_blank">simpleCart.js</a> and <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>.
 
 # <a href="http://wsjwong.github.io/ng-store" target="_blank">Demo</a>
